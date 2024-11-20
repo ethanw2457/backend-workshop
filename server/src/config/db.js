@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-
+// handles the actual connections and calls
 const mongoConnect = () =>
   new Promise((res, rej) => {
     const mongoURI = process.env.MONGO_URI
